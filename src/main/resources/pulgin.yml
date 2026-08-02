@@ -1,0 +1,12 @@
+name: BackOnDeath
+version: 1.0
+main: com.example.backondeath.BackOnDeath
+api-version: "1.21"
+author: YourName
+description: Plugin back lại nơi đã chết với cơ chế kiểm tra kẻ thù xung quanh.
+
+commands:
+  back:
+    description: Trở lại vị trí bạn vừa chết
+    permission: backondeath.use
+    usage: /back
